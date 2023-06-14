@@ -294,7 +294,11 @@ line-height: 20px;
     padding-left: 20px;
 }
 
-a{
+.breadcrumbs a{
+    color: rgb(155, 188, 222);
+}
+
+.submenu-two a{
 text-decoration: none;
 color: rgb(155, 188, 222);
 margin-right: 10px;
@@ -356,6 +360,7 @@ margin-left: 10px;
     color: white;
     font-size: 21px;
     height: 36px;
+    text-decoration: none;
     
 }
 
