@@ -629,6 +629,6 @@ label::before{
     
 }
 
-.input[type='checkbox']:checked + label::before{
+input[type='checkbox']:checked + label::before{
     background-color: white;     
 }
