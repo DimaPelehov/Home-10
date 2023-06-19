@@ -619,7 +619,7 @@ label{
 
 }
 
-label:before{
+label::before{
     content: "";
     display: block;
     width: 12px;
@@ -629,6 +629,6 @@ label:before{
     
 }
 
-.check-box-inp [type='checkbox']:checked + label::before{
-    background-color: white;      
+.input[type='checkbox']:checked + label::before{
+    background-color: white;     
 }
