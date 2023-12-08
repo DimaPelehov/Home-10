@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home 10</title>
     <link rel="stylesheet" href="reset.css" />
+    <!--  -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- посилання на slick -->
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -61,8 +71,23 @@
       </div>
     </header>
     <main class="main">
+      <div class="fon-slider">
+        <div class="container">
+          <!-- слайдер -->
+          <div class="row">
+            <div class="col-12">
+              <div class="slider-block">
+                <div>Slider 1</div>
+                <div>Slider 2</div>
+                <div>Slider 3</div>
+                <div>Slider 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container">
-        <div class="slide"></div>
+        <!-- фільтр і товари -->
         <div class="catalog">
           <div class="filter">
             <h2 class="first-h2">DEVICE TYPE</h2>
@@ -378,6 +403,34 @@
       </div>
     </main>
     <footer class="footer">Footer</footer>
+    <!-- вспливаюча форма -->
+    <div class="modal">
+      <div class="modal-block">
+        <form action="" class="form-more-details">
+          <div class="btn-close">X</div>
+          <h3>Please call for more details</h3>
+          <div class="form-field">
+            <input type="text" placeholder="Your name" />
+          </div>
+          <div class="form-field">
+            <input type="text" placeholder="Your phone" />
+          </div>
+          <button>Please call</button>
+        </form>
+      </div>
+    </div>
+    <!-- js slick -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <!--https: додаємо самі, спочатку його не було  -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- мій js -->
     <script src="app.js"></script>
   </body>
 </html>
